@@ -1,0 +1,12 @@
+--main AlbumRecoverer
+--library tink_core
+--library image
+--library polygonal-printf
+--class-path src/
+--each
+
+--neko build/neko/albumrec.n
+--cmd nekotools boot build/neko/albumrec.n
+
+--next
+--cpp build/cpp/
